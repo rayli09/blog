@@ -5,7 +5,7 @@ export default function Page() {
     <section>
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">Ray Li</h1>
       <p className="mb-4">
-        {`Enginer, builder, investor, gym bro. I'm passionate about web dev, serverless infrastructure, open source, and generative AI, and venture building.`}
+        {`Engineer, builder, investor, gym bro. I'm passionate about web dev, serverless infrastructure, open source, and generative AI, and venture building.`}
       </p>
       <p className="mb-4">
         Finished my undergrad CS@Columbia, now I'm working at Facebook to
