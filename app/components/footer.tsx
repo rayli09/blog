@@ -16,42 +16,31 @@ function ArrowIcon() {
 }
 
 export default function Footer() {
+  const links = [
+    {
+      href: "https://www.linkedin.com/in/ray-li-7131131a2/",
+      label: "linkedin",
+    },
+    { href: "https://instagram.com/r.li09", label: "instagram" },
+    { href: "https://github.com/rayli09", label: "github" },
+    { href: "https://x.com/rayli_09", label: "twitter" },
+  ];
   return (
     <footer className="mb-16">
       <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
-        <li>
-          <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://www.linkedin.com/in/ray-li-7131131a2/"
-          >
-            <ArrowIcon />
-            <p className="ml-2 h-7">linkedin</p>
-          </a>
-        </li>
-        <li>
-          <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://instagram.com/r.li09"
-          >
-            <ArrowIcon />
-            <p className="ml-2 h-7">instagram</p>
-          </a>
-        </li>
-        <li>
-          <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://github.com/rayli09"
-          >
-            <ArrowIcon />
-            <p className="ml-2 h-7">github</p>
-          </a>
-        </li>
+        {links.map(({ href, label }) => (
+          <li key={href}>
+            <a
+              href={href}
+              className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <ArrowIcon />
+              <p className="ml-2 h-7">{label}</p>
+            </a>
+          </li>
+        ))}
       </ul>
     </footer>
   );

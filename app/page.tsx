@@ -15,7 +15,7 @@ export default function Page() {
         Occasiaonlly building {``}
         <a
           href="https://filegpt.app"
-          className="text-blue-500 hover:underline"
+          className="underline"
           target="_blank"
           rel="noreferrer"
         >
@@ -24,7 +24,7 @@ export default function Page() {
         {`, `}
         <a
           href="https://offerplz.app"
-          className="text-blue-500 hover:underline"
+          className="underline"
           target="_blank"
           rel="noreferrer"
         >
