@@ -8,8 +8,8 @@ export default function Page() {
         {`Enginer, builder, investor, gym bro. I'm passionate about web dev, serverless infrastructure, open source, and generative AI, and venture building.`}
       </p>
       <p className="mb-4">
-        Finished my undergrad @Columbia, now I'm working at Facebook to deliver
-        experiences for business users.
+        Finished my undergrad CS@Columbia, now I'm working at Facebook to
+        deliver experiences for business users.
       </p>
       <p className="mb-4">
         Occasiaonlly building {``}
