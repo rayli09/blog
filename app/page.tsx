@@ -12,7 +12,7 @@ export default function Page() {
         deliver experiences for business users.
       </p>
       <p className="mb-4">
-        Occasiaonlly building {``}
+        Occasionally building {``}
         <a
           href="https://filegpt.app"
           className="underline"
@@ -29,6 +29,24 @@ export default function Page() {
           rel="noreferrer"
         >
           Offerplz
+        </a>
+        {`, `}
+        <a
+          href="https://unis.fyi"
+          className="underline"
+          target="_blank"
+          rel="noreferrer"
+        >
+          unis.fyi
+        </a>
+        {`, `}
+        <a
+          href="https://www.onlyfinance.today"
+          className="underline"
+          target="_blank"
+          rel="noreferrer"
+        >
+          onlyfinance.today
         </a>
         {`, and more on.`}
       </p>
