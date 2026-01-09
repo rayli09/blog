@@ -23,7 +23,7 @@ export default function Footer() {
     },
     { href: "https://instagram.com/r.li09", label: "instagram" },
     { href: "https://github.com/rayli09", label: "github" },
-    { href: "https://x.com/rayli_09", label: "twitter" },
+    { href: "https://x.com/ruize09", label: "twitter" },
   ];
   return (
     <footer className="mb-16">

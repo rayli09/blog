@@ -5,14 +5,22 @@ export default function Page() {
     <section>
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">Ray Li</h1>
       <p className="mb-4">
-        {`Engineer, builder, investor, gym bro. I'm passionate about web dev, serverless infrastructure, open source, and generative AI, and venture building.`}
+        {`Building `}
+        <a
+          href="https://openpromo.app"
+          className="underline"
+          target="_blank"
+          rel="noreferrer"
+        >
+          OpenPromo
+        </a>
+        {` — we make AI ads that win. Senior Eng @Meta building business/advertiser products at scale with >$200M revenue.`}
       </p>
       <p className="mb-4">
-        Finished my undergrad CS@Columbia, now I'm working at Facebook to
-        deliver experiences for business users.
+        {`CS & AI @Columbia. Passionate about agentic ai, derivatives trading, gym rat.`}
       </p>
       <p className="mb-4">
-        Occasionally building {``}
+        {`Other projects: `}
         <a
           href="https://filegpt.app"
           className="underline"
@@ -48,7 +56,7 @@ export default function Page() {
         >
           onlyfinance.today
         </a>
-        {`, and more on.`}
+        {`.`}
       </p>
       <div className="my-8">
         <BlogPosts />
